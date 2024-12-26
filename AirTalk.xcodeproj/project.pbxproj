@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7179931C2D1A37120020B290 /* AirTalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7179931B2D1A37120020B290 /* AirTalkApp.swift */; };
+		7179931E2D1A37120020B290 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7179931D2D1A37120020B290 /* ContentView.swift */; };
+		717993202D1A37140020B290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7179931F2D1A37140020B290 /* Assets.xcassets */; };
+		717993232D1A37140020B290 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717993222D1A37140020B290 /* Preview Assets.xcassets */; };
+		717993252D1A37140020B290 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717993242D1A37140020B290 /* Persistence.swift */; };
+		717993282D1A37140020B290 /* AirTalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 717993262D1A37140020B290 /* AirTalk.xcdatamodeld */; };
+		717993322D1A37140020B290 /* AirTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717993312D1A37140020B290 /* AirTalkTests.swift */; };
+		7179933C2D1A37140020B290 /* AirTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7179933B2D1A37140020B290 /* AirTalkUITests.swift */; };
+		7179933E2D1A37140020B290 /* AirTalkUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7179933D2D1A37140020B290 /* AirTalkUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7179932E2D1A37140020B290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 717993102D1A37120020B290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 717993172D1A37120020B290;
+			remoteInfo = AirTalk;
+		};
+		717993382D1A37140020B290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 717993102D1A37120020B290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 717993172D1A37120020B290;
+			remoteInfo = AirTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		717993182D1A37120020B290 /* AirTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7179931B2D1A37120020B290 /* AirTalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTalkApp.swift; sourceTree = "<group>"; };
+		7179931D2D1A37120020B290 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7179931F2D1A37140020B290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		717993222D1A37140020B290 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		717993242D1A37140020B290 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		717993272D1A37140020B290 /* AirTalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AirTalk.xcdatamodel; sourceTree = "<group>"; };
+		7179932D2D1A37140020B290 /* AirTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		717993312D1A37140020B290 /* AirTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTalkTests.swift; sourceTree = "<group>"; };
+		717993372D1A37140020B290 /* AirTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7179933B2D1A37140020B290 /* AirTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTalkUITests.swift; sourceTree = "<group>"; };
+		7179933D2D1A37140020B290 /* AirTalkUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTalkUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		717993152D1A37120020B290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7179932A2D1A37140020B290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717993342D1A37140020B290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7179930F2D1A37120020B290 = {
+			isa = PBXGroup;
+			children = (
+				7179931A2D1A37120020B290 /* AirTalk */,
+				717993302D1A37140020B290 /* AirTalkTests */,
+				7179933A2D1A37140020B290 /* AirTalkUITests */,
+				717993192D1A37120020B290 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		717993192D1A37120020B290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				717993182D1A37120020B290 /* AirTalk.app */,
+				7179932D2D1A37140020B290 /* AirTalkTests.xctest */,
+				717993372D1A37140020B290 /* AirTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7179931A2D1A37120020B290 /* AirTalk */ = {
+			isa = PBXGroup;
+			children = (
+				7179931B2D1A37120020B290 /* AirTalkApp.swift */,
+				7179931D2D1A37120020B290 /* ContentView.swift */,
+				7179931F2D1A37140020B290 /* Assets.xcassets */,
+				717993242D1A37140020B290 /* Persistence.swift */,
+				717993262D1A37140020B290 /* AirTalk.xcdatamodeld */,
+				717993212D1A37140020B290 /* Preview Content */,
+			);
+			path = AirTalk;
+			sourceTree = "<group>";
+		};
+		717993212D1A37140020B290 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				717993222D1A37140020B290 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		717993302D1A37140020B290 /* AirTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				717993312D1A37140020B290 /* AirTalkTests.swift */,
+			);
+			path = AirTalkTests;
+			sourceTree = "<group>";
+		};
+		7179933A2D1A37140020B290 /* AirTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7179933B2D1A37140020B290 /* AirTalkUITests.swift */,
+				7179933D2D1A37140020B290 /* AirTalkUITestsLaunchTests.swift */,
+			);
+			path = AirTalkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		717993172D1A37120020B290 /* AirTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717993412D1A37140020B290 /* Build configuration list for PBXNativeTarget "AirTalk" */;
+			buildPhases = (
+				717993142D1A37120020B290 /* Sources */,
+				717993152D1A37120020B290 /* Frameworks */,
+				717993162D1A37120020B290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirTalk;
+			productName = AirTalk;
+			productReference = 717993182D1A37120020B290 /* AirTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7179932C2D1A37140020B290 /* AirTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717993442D1A37140020B290 /* Build configuration list for PBXNativeTarget "AirTalkTests" */;
+			buildPhases = (
+				717993292D1A37140020B290 /* Sources */,
+				7179932A2D1A37140020B290 /* Frameworks */,
+				7179932B2D1A37140020B290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7179932F2D1A37140020B290 /* PBXTargetDependency */,
+			);
+			name = AirTalkTests;
+			productName = AirTalkTests;
+			productReference = 7179932D2D1A37140020B290 /* AirTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		717993362D1A37140020B290 /* AirTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717993472D1A37140020B290 /* Build configuration list for PBXNativeTarget "AirTalkUITests" */;
+			buildPhases = (
+				717993332D1A37140020B290 /* Sources */,
+				717993342D1A37140020B290 /* Frameworks */,
+				717993352D1A37140020B290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				717993392D1A37140020B290 /* PBXTargetDependency */,
+			);
+			name = AirTalkUITests;
+			productName = AirTalkUITests;
+			productReference = 717993372D1A37140020B290 /* AirTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		717993102D1A37120020B290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					717993172D1A37120020B290 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7179932C2D1A37140020B290 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 717993172D1A37120020B290;
+					};
+					717993362D1A37140020B290 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 717993172D1A37120020B290;
+					};
+				};
+			};
+			buildConfigurationList = 717993132D1A37120020B290 /* Build configuration list for PBXProject "AirTalk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7179930F2D1A37120020B290;
+			productRefGroup = 717993192D1A37120020B290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				717993172D1A37120020B290 /* AirTalk */,
+				7179932C2D1A37140020B290 /* AirTalkTests */,
+				717993362D1A37140020B290 /* AirTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		717993162D1A37120020B290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717993232D1A37140020B290 /* Preview Assets.xcassets in Resources */,
+				717993202D1A37140020B290 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7179932B2D1A37140020B290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717993352D1A37140020B290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		717993142D1A37120020B290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717993282D1A37140020B290 /* AirTalk.xcdatamodeld in Sources */,
+				717993252D1A37140020B290 /* Persistence.swift in Sources */,
+				7179931E2D1A37120020B290 /* ContentView.swift in Sources */,
+				7179931C2D1A37120020B290 /* AirTalkApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717993292D1A37140020B290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717993322D1A37140020B290 /* AirTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		717993332D1A37140020B290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7179933C2D1A37140020B290 /* AirTalkUITests.swift in Sources */,
+				7179933E2D1A37140020B290 /* AirTalkUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7179932F2D1A37140020B290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 717993172D1A37120020B290 /* AirTalk */;
+			targetProxy = 7179932E2D1A37140020B290 /* PBXContainerItemProxy */;
+		};
+		717993392D1A37140020B290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 717993172D1A37120020B290 /* AirTalk */;
+			targetProxy = 717993382D1A37140020B290 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7179933F2D1A37140020B290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		717993402D1A37140020B290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		717993422D1A37140020B290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirTalk/Preview Content\"";
+				DEVELOPMENT_TEAM = 226UDD7K42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CongCong-Edu.AirTalk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		717993432D1A37140020B290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AirTalk/Preview Content\"";
+				DEVELOPMENT_TEAM = 226UDD7K42;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CongCong-Edu.AirTalk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		717993452D1A37140020B290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 226UDD7K42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CongCong-Edu.AirTalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTalk.app/AirTalk";
+			};
+			name = Debug;
+		};
+		717993462D1A37140020B290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 226UDD7K42;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CongCong-Edu.AirTalkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirTalk.app/AirTalk";
+			};
+			name = Release;
+		};
+		717993482D1A37140020B290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 226UDD7K42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CongCong-Edu.AirTalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirTalk;
+			};
+			name = Debug;
+		};
+		717993492D1A37140020B290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 226UDD7K42;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CongCong-Edu.AirTalkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		717993132D1A37120020B290 /* Build configuration list for PBXProject "AirTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7179933F2D1A37140020B290 /* Debug */,
+				717993402D1A37140020B290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		717993412D1A37140020B290 /* Build configuration list for PBXNativeTarget "AirTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717993422D1A37140020B290 /* Debug */,
+				717993432D1A37140020B290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		717993442D1A37140020B290 /* Build configuration list for PBXNativeTarget "AirTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717993452D1A37140020B290 /* Debug */,
+				717993462D1A37140020B290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		717993472D1A37140020B290 /* Build configuration list for PBXNativeTarget "AirTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717993482D1A37140020B290 /* Debug */,
+				717993492D1A37140020B290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		717993262D1A37140020B290 /* AirTalk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				717993272D1A37140020B290 /* AirTalk.xcdatamodel */,
+			);
+			currentVersion = 717993272D1A37140020B290 /* AirTalk.xcdatamodel */;
+			path = AirTalk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 717993102D1A37120020B290 /* Project object */;
+}
